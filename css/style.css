@@ -118,7 +118,7 @@ footer .foot-info h3{ font-size:2rem; color:#fff; line-height:5rem;}
 footer .foot-info h4{ font-size:1.5rem; color:#fff; line-height:4rem;}
 footer .foot-info  li{ font-size:1.2rem; color:#fff; line-height:2rem;}
 footer .foot-info p{ font-size:1.2rem; color:#fff; line-height:2rem;}
-footer .foot-info h6{ font-size:1.2rem; color:#fff;  display:inline;font-style:italic;font-weight:200;}
+footer .foot-info h6{ font-size:1.2rem; color:#fff;  display:inline; font-style:oblique; font-weight:200;}
 .foot-info2{ margin-left:5rem;margin-top:1rem;}
 .foot-info2 h3{font-size:1.5rem; color:#fff; line-height:5rem;}
 footer .link{color:#fff; border-bottom: .2px solid #fff; }
