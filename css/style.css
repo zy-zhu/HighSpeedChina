@@ -12,6 +12,7 @@
 html {
   font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+ 
 }
 ul, li {
   list-style: none;
@@ -32,6 +33,7 @@ img {
 }
 body{ 
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
    overflow-x:hidden;}
 
 .Head-box{ width:100%; height:80px; z-index:9999; background:#232e33; position:fixed; top:0px; display:flex;justify-content : space-between;align-items : center;}
@@ -43,14 +45,20 @@ body{
 }
 
 .fonttitle{
-  font-size: 10vh;
+  font-size: 5vh;
   color: #F7CD5F;
+}
+
+.fontdescription{
+  color:#fff;
+  font-size: 1vh;
+
 }
 
 
 .home-box1{ background-image:url(../img/bg.jpg); overflow:hidden; margin-top:80px; background-position:center center; background-repeat:no-repeat; background-size:cover; height:100vh;}
 .R-box{justify-content : center; display:flex; height:100%; }
-.box1-info{ text-align:center;  width:80vh; height:100vh; display:flex;align-items : center; position: absolute;; }
+.box1-info{ text-align:center;  width:80vh; height:80vh; display:flex; align-items : center; position: absolute;; }
 .box1-info>img{ width:100%; }
 
 .Continue{ width:100%; text-align:center; position:absolute; bottom:20px; z-index:999;}
@@ -82,7 +90,8 @@ section{ background:#364e50; overflow:hidden;}
 .team-list:hover .team-foot div .on i:nth-child(1){ display:none;}
 .team-list:hover .team-foot div .on i:nth-child(2){ display:block;}
 
-.team-max h3{ font-size:3rem; color:#fff; line-height:280px; text-align:center; width:100%; position:absolute; top:0%; z-index:9;	}
+.team-max h3{ font-size:2rem; color:#fff; line-height:280px; text-align:center; width:100%; position:absolute; top:0%; z-index:9;	}
+.team-max h4{ font-size:1.5rem; color:#fff; line-height:280px; float:right;text-align:center; width:100%; position:absolute; top:0%; z-index:9;	}
 .team-info{transform: rotateY(0deg); transition: all .5s ease-in-out 0s;  display:flex;justify-content : center;flex-direction:column; position:absolute; z-index:1; top:0px; left:0px;  width:100%; height:100%;}
 .team-foot div p i{ float:right;font-style:normal; margin-left:5px;}
 .team-info p{color:#fff; line-height:1.8rem; font-size:1.2rem; margin:auto; width:70%;}
@@ -97,20 +106,25 @@ section{ background:#364e50; overflow:hidden;}
 .team-foot div span{ border:1px solid #fff; margin-right:10px; padding:0px 5px; color:#fff; border-radius:50px; font-size:1rem;}
 .team-foot div p{ color:#fff; margin:auto; font-size:1.2rem;}
 
-.swiper-container1{ padding-bottom:60px;}
-.swiper-container1 .swiper-pagination-bullet{ background:#fff;}
+.swiper-container1{ padding-bottom:50px; }
+.swiper-container1 .swiper-pagination-bullet{ background:#fff; padding-left: 0px;}
 
 .home-box4{ overflow:hidden; margin:5rem auto;}
 .box4-info{ width:90%;}
 
 footer{ padding:5rem 0px; overflow:hidden; background:#232e32;}
-footer .foot-info { margin-left:10rem;margin-top:3rem;}
+footer .foot-info { margin-left:5rem;margin-top:3rem;}
 footer .foot-info h3{ font-size:2rem; color:#fff; line-height:5rem;}
 footer .foot-info h4{ font-size:1.5rem; color:#fff; line-height:4rem;}
 footer .foot-info  li{ font-size:1.2rem; color:#fff; line-height:2rem;}
 footer .foot-info p{ font-size:1.2rem; color:#fff; line-height:2rem;}
-.foot-info2{ margin-left:10rem;margin-top:1rem;}
+footer .foot-info h6{ font-size:1.2rem; color:#fff;  display:inline;font-style:italic;font-weight:200;}
+.foot-info2{ margin-left:5rem;margin-top:1rem;}
 .foot-info2 h3{font-size:1.5rem; color:#fff; line-height:5rem;}
+footer .link{color:#fff; border-bottom: .2px solid #fff; }
+footer .link:hover{opacity: 0.7;}
+
+
 
 .swiper-container2{ overflow:hidden; padding-bottom:50px; position:relative;}
 
@@ -118,6 +132,12 @@ footer .foot-info p{ font-size:1.2rem; color:#fff; line-height:2rem;}
   .container {
     max-width: 1200px;
   }
+  .order1{order:1;}
+  .order2{order:2;}
+  .order3{order:3;}
+  .order4{order:4;}
+
+  .chinalogo{margin-right: 10px;}
   
 }
 @media (max-width: 1279px) {
@@ -134,11 +154,24 @@ footer .foot-info p{ font-size:1.2rem; color:#fff; line-height:2rem;}
 	.home-box1{ height:400px;}
 	.logo{ width:60%;}
 	nav{ padding-left:0px;}
-	.nav-list{ background-color:rgba(0,0,0,.5); padding-left:20px;}
+	.nav-list{ background-color:#232e32;font-family: "Stardos-Stencil-Regular"; padding-left:40px; padding-top: 100px; width: 70vw;height: 100vh;font-size: 40px;}
 	.Head-box img:nth-child(2){ width:38%;}
 	.team-list{ width:100%;}
-	.box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
-	
+  .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
+  .logohead{opacity: 0;}
+  .img-phone{margin-bottom: 30vh;}
+  .blank{height: 0px;width: 0vh;}
+  .footlogo{display: inline-block;
+    vertical-align: middle;}
+  
+  .china-logo{width:60%; height: 60%;}
+  .sul-logo{ width: 50%;height: 50%;}
+  .scl-logo{position:relative; width: 60%;height:60%;right:3px;}
+  .order1{order:1;}
+  .order2{order:3;}
+  .order3{order:2;}
+  .order4{order:4;}
+
 }
 
 
