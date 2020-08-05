@@ -230,7 +230,7 @@ a.press{
   .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
 
   .logohead{opacity: 0;}
-  .img-phone{margin-bottom: 30vh;}
+  .img-phone{margin-bottom: 30vh;padding: 10px;}
   .blank{height: 15%;}
   .footlogo{display: inline-block;
     vertical-align: middle;}
