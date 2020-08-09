@@ -32,7 +32,7 @@ img {
   max-width: 100%;
 }
 body{ 
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:'Gill Sans',sans-serif;
 
    overflow-x:hidden;}
 
@@ -99,7 +99,7 @@ section{ background:#364e50; overflow:hidden;}
 .team-foot div p i{ float:right;font-style:normal; margin-left:5px;}
 .team-info p{color:#fff; line-height:1.8rem; font-size:1.2rem; margin:auto; width:70%;}
 .team-foot div p i:nth-child(2){ display:none;}
-.team-list .team-box{    transform: rotateY(90deg);  transition: all .5s ease-in-out 0s;   display:flex; justify-content : center;flex-direction:column;  width:100%; height:100%; background:#212e31; position:absolute; top:0px; left:0px; z-index:9; border-radius:10px; }
+.team-list .team-box{    transform: rotateY(90deg);  transition: all .5s ease-in-out 0s;   display:flex; justify-content : center;flex-direction:column;  width:100%; height:100%; background:#212e31; position:absolute; top:0px; left:0px; z-index:9; border-radius:10px; opacity: 0.9;}
 .team-list .team-box p{ color:#fff; line-height:1.8rem; font-size:1.2rem; margin:auto; width:70%;}
 
 
