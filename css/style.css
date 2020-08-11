@@ -32,7 +32,8 @@ img {
   max-width: 100%;
 }
 body{ 
-  font-family:'Gill Sans',sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+   font-style: normal; font-variant: normal; 
 
    overflow-x:hidden;}
 
@@ -75,7 +76,7 @@ section{ background:#364e50; overflow:hidden;}
 .home-box2{ overflow:hidden; margin:8rem auto;}
 .box2-info{ width:90%;}
 .title{ font-size:2.5rem; color:#F7CD5F; line-height:7rem;}
-.box2-info p{ color:#fff; font-size:1.2rem; line-height:2rem; margin-bottom:1.5rem;} 
+.box2-info p{ color:#fff; font-weight: 200;font-size:1.2rem; line-height:2rem; margin-bottom:1.5rem;} 
 .home-box2 .linkweb{color:#fff; }
 .home-box2 .linkweb:hover{ opacity: 0.7;}
 
