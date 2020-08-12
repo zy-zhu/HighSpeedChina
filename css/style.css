@@ -264,7 +264,7 @@ a.press{
 	nav{ padding-left:0px;}
 	.nav-list{ background-color:#232e32;font-family: "Stardos-Stencil-Regular"; padding-left:40px; padding-top: 100px; width: 70vw;height: 100vh;font-size: 40px;}
 	.Head-box img:nth-child(2){ width:38%;}
-  .team-list{ width:70%; flex: center; margin:auto;padding-top: 15px;}
+  .team-list{ width:73%; flex: center; margin:auto;padding-top: 15px;}
   .team-info,.team-max{padding-top: 15px;}
   .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
 
