@@ -307,7 +307,7 @@ a.press{
 
 @media (max-width: 780px) {
   .team-list{ width:24vw; height: 24vw;}
-  .team-list .team-box p{ color:#fff; line-height:1rem; font-size:1rem; margin:auto; width:70%;}
+  .team-list .team-box p{ color:#fff; line-height:1rem; font-size:.8rem; margin:auto; width:70%;}
 }
 
 
@@ -322,7 +322,7 @@ a.press{
   .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
 
   .team-list .team-box{ margin-top:15px; }
-  .team-list .team-box p{ color:#fff; line-height:1rem; font-size:1rem; margin:auto; width:70%;}
+  .team-list .team-box p{ color:#fff; line-height:1rem; font-size:.8rem; margin:auto; width:70%;}
 
   .logohead{opacity: 0;}
   .img-phone{margin-bottom: 30vh;padding: 10px;}
@@ -376,6 +376,8 @@ a.press{
 
 
 @media (max-width: 575px) {
+
+  .team-list .team-box p{ color:#fff; line-height:1.5rem; font-size:1.2rem; margin:auto; width:70%;}
 
   .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
 
