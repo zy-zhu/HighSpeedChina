@@ -299,13 +299,14 @@ a.press{
     padding-bottom: 50vh;
     padding-left: 5vh;
   }
+  .team-list{ width:20vw; height: 20vw;}
 
 	
 }
 
 @media (max-width: 780px) {
-  .team-list{ width:24vw; height: 24vw;}
-  .team-list .team-box p{ color:#fff; line-height:1rem; font-size:.8rem; margin:auto; width:70%;}
+  .team-list{ width:24vh; height: 24vw;}
+  .team-list .team-box p{ color:#fff; line-height:1rem; font-size:1rem; margin:auto; width:70%;}
 }
 
 
