@@ -252,10 +252,54 @@ a.press{
   
 }
 @media (max-width: 1199px) {
+  .box1-info{ text-align:center;  width:90%; height:90%; display:flex; align-items : center; position: absolute;; }
+	#texttitle{
+    font-size: 50px;
+    position: absolute;
+    color: #F7CD5F;
+    padding-top: 20%;
+    padding-bottom: 50vh;
+    padding-left: 5vh;
+    
+  }
+  #texttitle_line{
+    font-size: 15px;
+    position: absolute;
+    display: block;
+    font-weight:100;
+    color: #fff;
+    opacity: 0.7;
+    padding-top: 50%;
+    padding-bottom: 50vh;
+    padding-left: 5vh;
+  }
+
   
 }
 @media (max-width: 991px) {
-	
+
+  .box1-info{ text-align:center;  width:90%; height:90%; display:flex; align-items : center; position: absolute;; }
+	#texttitle{
+    font-size: 40px;
+    position: absolute;
+    color: #F7CD5F;
+    padding-top: 20%;
+    padding-bottom: 50vh;
+    padding-left: 5vh;
+    
+  }
+  #texttitle_line{
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    font-weight:100;
+    color: #fff;
+    opacity: 0.7;
+    padding-top: 50%;
+    padding-bottom: 50vh;
+    padding-left: 5vh;
+  }
+
 	
 }
 @media (max-width: 767px) {
@@ -286,13 +330,15 @@ a.press{
 
   footer .foot-info { margin-left:2rem;margin-top:3rem;}
   .foot-info2{ margin-left:2rem;margin-top:1rem;}
+  
+  
   #texttitle{
     font-size: 30px;
-    position: relative;
+    position: absolute;
     color: #F7CD5F;
-    padding-top: 5vh;
+    padding-top: 20%;
     padding-bottom: 50vh;
-    padding-left: 5px;
+    padding-left: 2vh;
     
   }
   #texttitle_line{
@@ -304,7 +350,8 @@ a.press{
     opacity: 0.7;
     padding-bottom: 45vh;
     text-align: left;
-    padding-left: 5px;
+    padding-left: 2vh;
+    padding-top: 50%;
   
     
   }
@@ -313,6 +360,77 @@ a.press{
 
 
 @media (max-width: 575px) {
+
+  .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
+
+  .navbar-brand{
+    font-size: 50%;
+  }
+  #texttitle{
+    font-size: 25px;
+    position: absolute;
+    color: #F7CD5F;
+    padding-top: 20%;
+    padding-bottom: 50vh;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    
+  }
+  #texttitle_line{
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    font-weight:100;
+    color: #fff;
+    opacity: 0.7;
+    padding-bottom: 45vh;
+    text-align: left;
+    padding-left: 2vh;
+    padding-top: 55%;
+  
+    
+  }
+  
+@media (max-width: 321px) {
+
+  .fonthsc{
+    font-size: 20px;
+    text-align: center;
+  }
+  .ham {height: 8vh;}
+  #texttitle{
+    font-size: 25px;
+    position: absolute;
+    color: #F7CD5F;
+    padding-top: 20%;
+    padding-bottom: 50vh;
+    padding-left: 2vh;
+    padding-right: 5vh;
+    
+  }
+  #texttitle_line{
+    font-size: 12px;
+    position: absolute;
+    display: block;
+    font-weight:100;
+    color: #fff;
+    opacity: 0.7;
+    padding-bottom: 45vh;
+    text-align: left;
+    padding-left: 2vh;
+    padding-top: 80%;
+  
+    
+  }
+  
+  .team-list{ width:100%; flex: center; margin:auto;padding-top: 15px;}
+  .fonthsc{
+    font-size: 20px;
+    text-align: left;
+  }
+
+ 
+
  
 }
 
