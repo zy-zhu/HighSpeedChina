@@ -302,6 +302,11 @@ a.press{
 
 	
 }
+
+@media (max-width: 780px) {
+}
+
+
 @media (max-width: 767px) {
 	.home-box1{ height:400px;}
 	.logo{ width:60%;}
@@ -359,6 +364,10 @@ a.press{
 }
 
 
+@media(max-width:619px){
+  .team-list{ width:40vw; }
+}
+
 @media (max-width: 575px) {
 
   .box1-info,.box2-info,.box3-info,.box4-info{ padding-left:0px; width:100%;}
@@ -390,6 +399,13 @@ a.press{
   
     
   }
+
+  .team-list{ width:50vw; height: 50vw;}
+ 
+
+  
+
+}
   
 @media (max-width: 321px) {
 
@@ -423,15 +439,17 @@ a.press{
     
   }
   
-  .team-list{ width:100%; flex: center; margin:auto;padding-top: 15px;}
+  .team-list{ width:80vw; flex: center; margin:auto;padding-top: 15px;}
   .fonthsc{
     font-size: 20px;
     text-align: left;
   }
-
+  
+  @media (max-width: 281px) {
+    .team-list{ width:90vw; height: 90vw;flex: center; margin:auto;padding-top: 15px;}
  
 
  
-}
+}}
 
 
