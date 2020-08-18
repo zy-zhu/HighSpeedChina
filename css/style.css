@@ -363,6 +363,10 @@ a.press{
 
 }
 
+@media only screen and (max-width:850px) and (orientation:landscape){
+  .nav-list{ background-color:#232e32;font-family: "Stardos-Stencil-Regular"; padding-left:40px; padding-top: 100px; width: 100vw;height: 100vh;font-size: 50px;}
+}
+
 
 @media(max-width:630px){
   .team-list{ width:80vw; height: 80vw;}
