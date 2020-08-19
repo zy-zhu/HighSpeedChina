@@ -366,7 +366,8 @@ a.press{
 }
 
 @media only screen and (max-width:850px) and (orientation:landscape){
-  .nav-list{ background-color:#232e32;font-family: "Stardos-Stencil-Regular"; padding-left:40px; padding-top: 100px; width: 100vw;height: 100vh;font-size: 50px;}
+  .nav-list{ background-color:#232e32;font-family: "Stardos-Stencil-Regular"; padding-left:40px; padding-top: 100px; width: 40vw;height: 100vh;font-size: 50px;}
+  
 }
 
 
@@ -401,7 +402,7 @@ a.press{
     padding-bottom: 45vh;
     text-align: left;
     padding-left: 2vh;
-    padding-top: 50%;
+    padding-top: 55%;
   
     
   }
